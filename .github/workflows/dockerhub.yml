@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feature/add-validation-tool
       - master
       - "release/*"
     tags:
